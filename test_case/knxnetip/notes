@@ -1,0 +1,4 @@
+text2pcap text knxnetip_dpt9001_neg.pcap 
+text2pcap -4 172.22.10.76,172.22.12.76 -u 3671,41975 text knxnetip_dpt9001_neg.pcap
+
+od -Ax -tx1 -v knxnetip_debug_4.pcap
